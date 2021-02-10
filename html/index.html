@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dado</title>
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="formulario">
+            <img src="../img/dados2.jpeg" class="logo" alt="Dados">
+            <h1>DADO</h1>
+            <p>Por favor introduzca los valores m&iacute;nimo y m&aacute;ximo para el dado</p>
+            <p>Los valores deben estar comprendidos en el rango (0-12)</p>
+            <form action="../php/index.php" method="POST">
+                <label for="min">M&iacute;nimo</label>
+                <input type="number" name="min" id="min" min="0" max="11" required>
+                <label for="min">M&aacute;ximo</label>
+                <input type="number" name="max" id="max" min="1" max="12" required>
+                <input type="submit" value="ENVIAR">
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
